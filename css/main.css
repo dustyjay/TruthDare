@@ -1,0 +1,200 @@
+
+        @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 16px;
+        }
+
+        .banner {
+            background-image: url('../img/bgd.jpg');
+            background-color: #4b374b;
+            background-size: cover;
+        }
+
+        .banner-inner {
+            padding-top: 20px;
+        }
+
+        .td-inner {
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            min-height: 300px;
+        }
+
+        .banner-bg {
+            float: left;
+            width: 30%;
+            flex: 1;
+            background: url('../img/jeanna.png');
+            background-size: auto 100%;
+            background-position: center top;
+            background-repeat: no-repeat;
+        }
+
+        .rotate-text {
+            float: right;
+            width: 70%;
+            flex: 1;
+            color: #ffffff;
+        }
+
+        .wheel-box {
+            padding: 30px 0;
+        }
+
+        .wheel {
+            width: 550px;
+            height: 550px;
+            position: relative;
+        }
+
+        .wheel img {
+            width: 550px;
+            height: 550px;
+        }
+
+        .bottle {
+            position: absolute;
+            top: 113px;
+            left: 232px;
+            cursor: pointer;
+        }
+
+        .bottle img {
+            width: 86px;
+            height: 324px;
+        }
+
+        .bottle {
+            -webkit-transition: all 6s ease-out;
+            -moz-transition: all 6s ease-out;
+            -ms-transition: all 6s ease-out;
+            -o-transition: all 6s ease-out;
+            transition: all 6s ease-out;
+            box-sizing: initial;
+        }
+
+        .coin {
+            position: absolute;
+        }
+
+        .coin img {
+            width: 84px;
+            height: 84px;
+        }
+
+        .p1 {
+            left: 233px;
+            top: 0px;
+        }
+
+        .p2 {
+            right: 68px;
+            top: 68px;
+        }
+
+
+        .p3 {
+            right: 0px;
+            top: 233px;
+        }
+
+        .p4 {
+            right: 68px;
+            bottom: 68px;
+        }
+
+        .p5 {
+            left: 233px;
+            bottom: 0px;
+        }
+
+        .p6 {
+            left: 68px;
+            bottom: 68px;
+        }
+
+        .p7 {
+            left: 0px;
+            top: 233px;
+        }
+
+        .p8 {
+            left: 68px;
+            top: 68px;
+        }
+
+        .banner h2 {
+            font-weight: 700;
+            font-size: 2.8em;
+            margin: 10px 0;
+            padding-bottom: 0px;
+        }
+
+        .rotate-line {
+            font-size: 1.3em;
+            font-weight: 700;
+        }
+
+        .rotate-btn {
+            color: #ffffff;
+            background: #e25829;
+            padding: 5px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .rotate-btn:hover {
+            background: #b94c26;
+        }
+
+        .swal2-confirm {
+            background: #e25829 !important;
+            border: 0px !important;
+            font-weight: 700 !important;
+            text-transform: uppercase;
+        }
+
+        .swal2-content,
+        .swal2-confirm {
+            font-family: 'Quicksand', sans-serif !important;
+        }
+
+        .td-resto {
+            width: 100%;
+            overflow: hidden;
+            margin: 30px 0;
+        }
+
+        .td-resto-inner {
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.4em;
+            width: 80%;
+            font-weight: 700;
+            color: #4b374b;
+        }
+
+        .td-resto-button {
+            margin: 10px auto;
+            text-align: center;
+        }
+
+        .link-btn {
+            color: #ffffff;
+            background: #e25829;
+            padding: 5px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.4em;
+            font-weight: 700;
+            display: inline-block;
+        }
+
+        .link-btn:hover {
+            background: #b94c26;
+        }

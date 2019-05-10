@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <title>Truth or Dare</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+    <div class="banner">
+        <div class="banner-inner">
+            <div class="td-inner">
+                <div class="banner-bg"></div>
+                <div class="rotate-text">
+                    <h2>ROCK YOUR PROFITS</h2>
+                    <div class="rotate-line">
+                        <span class="rotate-btn" onclick="rotate()">SPIN NOW</span>
+                        to receive your TRUTH or DARE.
+                    </div>
+
+                    <div class="wheel-box">
+                        <div class="wheel">
+                            <img src="img/wheel.png">
+                            <div class="bottle" onclick="rotate()"><img src="img/bottle.png"></div>
+                            <div class="coin p1"><img src="img/coin.png"></div>
+                            <div class="coin p2"><img src="img/coin.png"></div>
+                            <div class="coin p3"><img src="img/coin.png"></div>
+                            <div class="coin p4"><img src="img/coin.png"></div>
+                            <div class="coin p5"><img src="img/coin.png"></div>
+                            <div class="coin p6"><img src="img/coin.png"></div>
+                            <div class="coin p7"><img src="img/coin.png"></div>
+                            <div class="coin p8"><img src="img/coin.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="td-resto">
+        <div class="td-resto-inner">
+            After you "tell your truth" or "do your dare",<br>download your free <span class="link">Truth or Dare
+                template</span> to double your profits and fun!</div>
+
+        <div class="td-resto-button">
+            <a target="_blank" href="https://masterpeacecoaching.com/truthordaretemplate/">
+                <div class="link-btn">DOWNLOAD NOW</div>
+            </a>
+        </div>
+    </div>
+    <input type="hidden" id="memory" value="">
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="./js/main.js"></script>
+
+</html>

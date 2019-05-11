@@ -121,7 +121,7 @@ function checkMatch() {
     var cards = countCards();
 
     if (cards.clover == 4 || cards.diamonds == 4 || cards.maple == 4 || cards.hearts == 4) {
-        Materialize.toast('Bravo vous avez gagné', 5000, 'green');
+        Materialize.toast('Yay! You won', 5000, 'green');
         pauseSpin();
         playWin();
     }
